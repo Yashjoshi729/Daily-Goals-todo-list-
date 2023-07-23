@@ -4,12 +4,14 @@
 }
 
 body {
-    background-image: linear-gradient(red ,blue);
-    opacity: 0.8;
+    background-image: url(./business-3695073_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
 }
 
-.container {
-    background-color: rgb(227, 226, 226);
+.container{
+    background-color: rgb(176, 168, 168);
     width: 70%;
     margin: auto;
     min-height: 100vh;
@@ -20,6 +22,10 @@ body {
 form {
     display: flex;
     flex-direction: column;
+}
+
+#title{
+    text-transform: uppercase;
 }
 
 input,

@@ -17,6 +17,7 @@ function showtask() {
 
         const p = document.createElement('p')
         p.innerText = value.title
+        p.style.textTransform="uppercase"
         innerdiv.append(p)
 
         const span = document.createElement('span')
